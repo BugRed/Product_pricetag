@@ -22,7 +22,7 @@ public final class ImportedProduct extends Product {
 	}
 
 	public Double totalPrice() {
-		return  price + customsFee;
+		return  getPrice() + customsFee;
 	}
 	
 	

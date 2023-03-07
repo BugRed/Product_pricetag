@@ -16,7 +16,6 @@ public class Program {
 
 	public static void main(String[] main) throws ParseException {
 
-		
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
@@ -31,8 +30,8 @@ public class Program {
 			System.out.print("Common, used or importred(c/u/i)?");
 			char resp = sc.next().charAt(0);
 			System.out.print("Name: ");
-			String productName = sc.nextLine();
 			sc.nextLine();
+			String productName = sc.nextLine();
 			System.out.print("Price: ");
 			double productPrice = sc.nextDouble();
 

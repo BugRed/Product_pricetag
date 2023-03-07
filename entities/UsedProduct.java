@@ -3,7 +3,7 @@ package entities;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-public class UsedProduct extends Product{
+public final class UsedProduct extends Product{
 	private LocalDate manufactureDate;
 	
 	public UsedProduct() {
